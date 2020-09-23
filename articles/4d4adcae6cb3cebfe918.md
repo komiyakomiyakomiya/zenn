@@ -3,7 +3,7 @@ title: "GoogleスプレッドシートでまとめてGoogle翻訳"
 emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["GSuite", "Google Spread Sheet"]
-published: false
+published: true
 ---
 
 # やること
