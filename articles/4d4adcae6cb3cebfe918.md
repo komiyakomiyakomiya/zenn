@@ -40,5 +40,4 @@ GOOGLETRANSLATE()関数を使います
 
 ## ちなみに
 pythonだとこんな感じです
-⇣
 [PythonでGoogle翻訳](https://zenn.dev/komiya/articles/e493c97c8591823ac58c)
