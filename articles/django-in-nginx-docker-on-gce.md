@@ -3,7 +3,7 @@ title: "Docker+nginxでGCEに静的ページをデプロイする"
 emoji: "🦔"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [GCP GCE Docker nginx]
-published: false
+published: true
 ---
 
 # SDKのインストール
