@@ -1,5 +1,5 @@
 ---
-title: "【画像で説明】PythonでAlfredからGoogleTasks(ToDo)にタスクを追加するWorkflowを作る"
+title: "【画像で説明】AlfredからGoogleTasks(ToDo)にタスクを追加するWorkflowをPythonで作る"
 emoji: "🦔"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [python, mac, alfred, google, api]
