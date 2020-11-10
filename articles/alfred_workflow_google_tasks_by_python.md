@@ -13,13 +13,23 @@ published: true
 
 ![スクリーンショット 2020-11-07 4 52 58" ](https://user-images.githubusercontent.com/26497221/98408891-4395eb00-20b5-11eb-9dab-7124cbb95c4f.png)
 
+---
+    **⇣**
+---
+
 こうっ
 
 ![スクリーンショット 2020-11-07 4 53 09" ](https://user-images.githubusercontent.com/26497221/98408947-5c060580-20b5-11eb-9f9d-e3e6e6d8b322.png)
 
+---
+
 こうしたら
 
 ![スクリーンショット 2020-11-07 4 53 23" ](https://user-images.githubusercontent.com/26497221/98408951-5f00f600-20b5-11eb-8d97-d1f4ffa03c9d.png)
+
+---
+    **⇣**
+---
 
 こうっ
 
