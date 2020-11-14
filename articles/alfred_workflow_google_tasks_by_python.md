@@ -36,9 +36,14 @@ published: true
 ![スクリーンショット 2020-11-07 4 53 34" ](https://user-images.githubusercontent.com/26497221/98409000-75a74d00-20b5-11eb-8c43-bb32b237d69e.png)
 
 
+# 前提条件
+* Mac OS
+* Alfredのインストール (https://www.alfredapp.com/)
+* Alfred Powerpack購入済 (https://www.alfredapp.com/shop/)
+* Googleアカウント作成済
 
-
-
+今回説明するworkflowは無料版では使えない機能のため、Powerpackの購入が必要となります。
+Powerpackの料金は2020-11-15現在のレートで約¥6,770でした。
 
 
 # GCPアカウントの作成
