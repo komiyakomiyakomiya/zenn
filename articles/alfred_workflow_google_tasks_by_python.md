@@ -116,8 +116,6 @@ https://developers.google.com/tasks/quickstart/python
 
 ![スクリーンショット 2020-11-06 20 28 39](https://user-images.githubusercontent.com/26497221/98363765-da8d8380-2072-11eb-86f4-3634a865f1df.png)
 
-![スクリーンショット 2020-11-06 21 01 07](https://user-images.githubusercontent.com/26497221/98365278-859f3c80-2075-11eb-8fe9-73d40d6c8de9.png)
-
 ⇣ ひとまずNameだけあれば大丈夫です。
 
 ![スクリーンショット 2020-11-06 21 01 07](https://user-images.githubusercontent.com/26497221/98364447-2a207f00-2074-11eb-92b2-4cd7a14268ce.png)
