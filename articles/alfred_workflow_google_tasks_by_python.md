@@ -111,12 +111,12 @@ https://developers.google.com/tasks/quickstart/python
 
 ここからはAlfredの設定画面をさわっていきます。
 
-![スクリーンショット 2020-11-06 21 01 07](https://user-images.githubusercontent.com/26497221/98365278-859f3c80-2075-11eb-8fe9-73d40d6c8de9.png)
 
+![スクリーンショット 2020-11-06 20 24 49](https://user-images.githubusercontent.com/26497221/98363618-9c905f80-2072-11eb-94ab-e9707fb8ae4a.png)
 
 ![スクリーンショット 2020-11-06 20 28 39](https://user-images.githubusercontent.com/26497221/98363765-da8d8380-2072-11eb-86f4-3634a865f1df.png)
 
-![スクリーンショット 2020-11-06 20 24 49](https://user-images.githubusercontent.com/26497221/98363618-9c905f80-2072-11eb-94ab-e9707fb8ae4a.png)
+![スクリーンショット 2020-11-06 21 01 07](https://user-images.githubusercontent.com/26497221/98365278-859f3c80-2075-11eb-8fe9-73d40d6c8de9.png)
 
 ⇣ ひとまずNameだけあれば大丈夫です。
 
