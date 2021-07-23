@@ -67,6 +67,9 @@ Google Tasks APIを使うためにGCPアカウントが必要になります。
 ![スクリーンショット 2020-11-07 2 24 26" ](https://user-images.githubusercontent.com/26497221/98396095-91ecbf00-20a0-11eb-9eba-c5f715bb919e.png)
 
 ### OAuth2.0クライアントIDの作成
+
+OAuthで認証を行うための設定をします。
+
 ![スクリーンショット 2021-07-23 14 36 17](https://user-images.githubusercontent.com/26497221/126741341-48119138-6758-45b2-8046-ae6156840412.png)
 
 同意画面の設定が必要な場合があります。
@@ -76,7 +79,12 @@ Google Tasks APIを使うためにGCPアカウントが必要になります。
 
 ![スクリーンショット 2021-07-23 14 43 56](https://user-images.githubusercontent.com/26497221/126743521-8cfcd555-80d9-4ec3-9b9e-8aefa1a7e83d.png)
 
+任意のアプリ名(何でもよい)とメールアドレス(とりあえずアカウントのgmailで)を入力します。
+
 ![スクリーンショット 2021-07-23 14 44 55](https://user-images.githubusercontent.com/26497221/126743555-a5c17572-1b9a-4928-af33-2cd36a38bc56.png)
+
+![スクリーンショット 2021-07-23 14 45 06](https://user-images.githubusercontent.com/26497221/126749364-4707e04d-554d-4f96-8a61-2d94d8a01ad8.png)
+
 
 再度`+ 認証情報を作成`へ
 
@@ -86,7 +94,8 @@ Google Tasks APIを使うためにGCPアカウントが必要になります。
 
 <br>
 
-こんな画面が出てきますが、この情報は今回は不要です。
+こんな画面が出てきます。
+この画面の情報は今回は不要です。
 
 ![スクリーンショット 2020-11-07 2 39 14" ](https://user-images.githubusercontent.com/26497221/98397585-e98c2a00-20a2-11eb-86b8-7d204cc7fd5d.png)
 
@@ -109,7 +118,11 @@ Google Tasks APIを使うためにGCPアカウントが必要になります。
 ![スクリーンショット 2020-11-06 21 01 07](https://user-images.githubusercontent.com/26497221/98364447-2a207f00-2074-11eb-92b2-4cd7a14268ce.png)
 
 `/Users/ユーザー名/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/` の中に `user.workflow.xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/`みたいなディレクトリが作られます。
-このディレクトリがAlfredからPythonファイルを実行するさいのカレントディレクトリになります。
+このディレクトリがAlfredからPythonファイルを実行する際のカレントディレクトリになります。
+
+`Alfred.alfredpreferences`の場所は変更できるので要確認。
+例えばDropboxで設定を共有している場合はこのようなパスの場合もある。
+`/Users/ユーザー名/Dropbox/Alfred/Alfred.alfredpreferences/workflows`
 
 
 # Pythonファイルの作成
@@ -257,7 +270,12 @@ KeywordはAlfredの先頭に打ち込む文字列。
 
 ![スクリーンショット 2020-11-07 4 30 23" ](https://user-images.githubusercontent.com/26497221/98407470-18aa9780-20b3-11eb-89cf-3eb4bc7ca39b.png)
 
-初回は認証が必要。
+初回はOauth認証が必要。
+token.pickleというファイルが生成され認証情報が保存されるため、2回め以降は(= token.pickleが存在する場合は)認証不要。
+
+例えば別のGoogleアカウントのGoogle Tasksに切り替えたい場合は、token.pickleを削除して別のGoogleアカウントでOauth認証をしなおす。
+(別のGoogleアカウントでcredentials.jsonを取得する必要はない)
+
 
 ![スクリーンショット 2020-11-07 4 28 29](https://user-images.githubusercontent.com/26497221/98407503-23652c80-20b3-11eb-8dc1-b54561e35aff.png)
 
@@ -287,8 +305,6 @@ KeywordはAlfredの先頭に打ち込む文字列。
 
 ![スクリーンショット 2020-11-07 4 44 01" ](https://user-images.githubusercontent.com/26497221/98408461-860af800-20b4-11eb-8f7d-afc2c22354a2.png)
 
-Oauth認証は2回目以降は不要です。
-初回認証時に `token.pickle`というファイルが生成され、認証情報が保存されているようです。
 
 # 参照
 ありがとうございました。
