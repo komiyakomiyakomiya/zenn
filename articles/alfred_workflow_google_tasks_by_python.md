@@ -52,41 +52,17 @@ Google Tasks APIを使うためにGCPアカウントが必要になります。
 [無料アカウントの作成方法](https://qiita.com/komiya_____/items/14bd06d0866f182ae912)
 
 # 認証準備
-
-## Quickstartをつかう方法
-
-https://developers.google.com/tasks/quickstart/python
-
-こちらのクイックスタートを利用すると、
-
-  * GCPプロジェクトの作成
-  * Tasks APIの有効化
-  * OAuth2.0クライアントIDの作成
-  * 認証キー(credentials.json)のダウンロード
-
-をまとめて行うことができます。
-
-![スクリーンショット 2020-11-06 22 26 18](https://user-images.githubusercontent.com/26497221/98392717-ad090000-209b-11eb-8d7b-e583563ec35b.png)
-
-
-![スクリーンショット 2020-11-06 22 34 13](https://user-images.githubusercontent.com/26497221/98393020-125cf100-209c-11eb-8e67-7e000f779967.png)
-
-とりあえずDesktop appで問題ありませんでした。
-
-![スクリーンショット 2020-11-06 22 34 47](https://user-images.githubusercontent.com/26497221/98393045-1ab52c00-209c-11eb-8877-dcf43d60c025.png)
-
-![スクリーンショット 2020-11-07 2 02 59" ](https://user-images.githubusercontent.com/26497221/98394026-80ee7e80-209d-11eb-85ec-312f823d054c.png)
-
-## 通常のプロジェクト作成 ~ 認証キー取得まで
+## プロジェクト作成 ~ 認証キー取得まで
 
 ### プロジェクト作成
 ![スクリーンショット 2020-11-07 2 14 20" ](https://user-images.githubusercontent.com/26497221/98395228-4d145880-209f-11eb-8fc3-ee0c9f7c4474.png)
+
 ![スクリーンショット 2020-11-07 2 14 43" ](https://user-images.githubusercontent.com/26497221/98395238-50a7df80-209f-11eb-9598-90a79ad006f4.png)
 
 ### Tasks APIの有効化
 ![スクリーンショット 2020-11-07 2 11 45" ](https://user-images.githubusercontent.com/26497221/98395847-2efb2800-20a0-11eb-8aff-b7d4a7ffba49.png)
 
-![スクリーンショット 2020-11-07 2 24 01" ](https://user-images.githubusercontent.com/26497221/98396103-94e7af80-20a0-11eb-996e-898bcbbfe4b9.png)
+![スクリーンショット 2021-07-23 14 36 17](https://user-images.githubusercontent.com/26497221/126741341-48119138-6758-45b2-8046-ae6156840412.png)
 
 ![スクリーンショット 2020-11-07 2 24 26" ](https://user-images.githubusercontent.com/26497221/98396095-91ecbf00-20a0-11eb-9eba-c5f715bb919e.png)
 
