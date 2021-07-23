@@ -62,13 +62,25 @@ Google Tasks APIを使うためにGCPアカウントが必要になります。
 ### Tasks APIの有効化
 ![スクリーンショット 2020-11-07 2 11 45" ](https://user-images.githubusercontent.com/26497221/98395847-2efb2800-20a0-11eb-8aff-b7d4a7ffba49.png)
 
-![スクリーンショット 2021-07-23 14 36 17](https://user-images.githubusercontent.com/26497221/126741341-48119138-6758-45b2-8046-ae6156840412.png)
+![スクリーンショット 2020-11-07 2 24 01" ](https://user-images.githubusercontent.com/26497221/98396103-94e7af80-20a0-11eb-996e-898bcbbfe4b9.png)
 
 ![スクリーンショット 2020-11-07 2 24 26" ](https://user-images.githubusercontent.com/26497221/98396095-91ecbf00-20a0-11eb-9eba-c5f715bb919e.png)
 
 ### OAuth2.0クライアントIDの作成
+![スクリーンショット 2021-07-23 14 36 17](https://user-images.githubusercontent.com/26497221/126741341-48119138-6758-45b2-8046-ae6156840412.png)
 
-![スクリーンショット 2020-11-07 2 29 16" ](https://user-images.githubusercontent.com/26497221/98397551-ded19500-20a2-11eb-8ac2-326cae359253.png)
+同意画面の設定が必要な場合があります。
+(以下の画面が出なければ飛ばしてOK)
+
+![スクリーンショット 2021-07-23 14 42 22](https://user-images.githubusercontent.com/26497221/126743486-360b1836-2bdf-4d4b-ae8e-ba605e04f329.png)
+
+![スクリーンショット 2021-07-23 14 43 56](https://user-images.githubusercontent.com/26497221/126743521-8cfcd555-80d9-4ec3-9b9e-8aefa1a7e83d.png)
+
+![スクリーンショット 2021-07-23 14 44 55](https://user-images.githubusercontent.com/26497221/126743555-a5c17572-1b9a-4928-af33-2cd36a38bc56.png)
+
+再度`+ 認証情報を作成`へ
+
+![スクリーンショット 2021-07-23 14 36 17](https://user-images.githubusercontent.com/26497221/126741341-48119138-6758-45b2-8046-ae6156840412.png)
 
 ![スクリーンショット 2020-11-07 2 38 46" ](https://user-images.githubusercontent.com/26497221/98397570-e5600c80-20a2-11eb-9a68-c60193de4484.png)
 
