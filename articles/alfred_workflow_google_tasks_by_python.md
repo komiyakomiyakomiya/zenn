@@ -10,7 +10,6 @@ published: true
 
 こうしたら
 
-
 ![スクリーンショット 2020-11-07 4 52 58" ](https://user-images.githubusercontent.com/26497221/98408891-4395eb00-20b5-11eb-9dab-7124cbb95c4f.png)
 
 ---
